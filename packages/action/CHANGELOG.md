@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.3.1]
+
+- Added the `bundleIdentifier` input to modify Tauri's default bundle identifier when initializing a new Tauri app.
+  - [743a37f](https://www.github.com/tauri-apps/tauri-action/commit/743a37fd53cbdd122910b818b9bef7b7aa019134) feat(core): add bundle identifier option ([#263](https://www.github.com/tauri-apps/tauri-action/pull/263)) on 2022-05-11
+
 ## \[0.3.0]
 
 - Delete assets from existing release, allowing running the action twice for the same version if an error happens.
